@@ -9,6 +9,10 @@ rc('animation', html='html5')
 
 from Cell2D import Cell2D, Cell2DViewer
 
+"""
+Using Allen's Cell2D and Cell2DViewer classes to simulate an opinion landscape
+"""
+
 class landScape(Cell2D):
     """Simulation of opinion landscape as 2D grid."""
     def __init__(self, n, m = None, t = 0.4):
